@@ -1,0 +1,6 @@
+{
+  "name": "Breakout Arcade",
+  "description": "A classic break-out arcade game built with React, Canvas, and TypeScript.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
