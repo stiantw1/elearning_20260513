@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Breakout Arcade
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/9ad9ac34-bdff-49ca-8955-91d999ba1dbd
+A classic Breakout arcade game built with React, Canvas, and TypeScript.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Start the development server:
    `npm run dev`
+3. Open the app in your browser at `http://localhost:5173`
+
+## GitHub Pages Deployment
+
+This repository is configured to deploy to GitHub Pages using GitHub Actions. The Vite app is built with a base path of `/elearning_20260513/`, which matches the repository name for GitHub Pages project hosting.
